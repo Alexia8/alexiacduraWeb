@@ -1,0 +1,114 @@
+/* 
+    Created on : Mar 29, 2016, 12:46:13 AM
+    Author     : AlexiaDura
+*/
+
+body{
+    background-image: url(../img/Photos/Web2.jpg);
+    background-position: bottom; 
+    background-size: cover;
+}
+
+#name h1{
+    color: #04254d;
+    top:25px;
+    right: 28%;
+}
+
+#name h2{
+    color: #04254d;
+    top:110px;
+    right: 28%;
+}
+
+header span{
+    color: #04254d;
+}
+
+/*NAV
+================================================*/
+
+#btn_menu,#btn_menu2,#link_services,#link_works,#link_profile,#link_contact:hover{
+    cursor: pointer;
+    position: fixed;
+}
+
+#link_services{
+    background-image: url(../img/nav/web/services.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 150px;
+    width: 150px;
+    z-index: 6;
+    position: fixed;
+    top:180px;
+    left: 27.5%;
+     -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 80s;
+    -webkit-animation-timing-function: ease;
+}
+
+#servicesLink h3,#worksLink h3,#profileLink h3,#contactLink h3{
+   display: none;
+}
+
+#link_services:hover{
+    background-image: url(../img/nav/web/servicesCode.png);
+}
+
+#link_profile{
+    background-image: url(../img/nav/web/profile.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 160px;
+    width: 182px;
+    z-index: 6;
+    position: fixed;
+    top:250px;
+    left: 34.5%;
+     -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 50s;
+    -webkit-animation-timing-function: ease;
+}
+
+#link_profile:hover{
+    background-image: url(../img/nav/web/profileCode.png);
+}
+
+#link_contact{
+    background-image: url(../img/nav/web/contact.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 150px;
+    width: 150px;
+    z-index: 6;
+    position: fixed;
+    top:320px;
+    left: 27.5%;
+     -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 40s;
+    -webkit-animation-timing-function: ease;
+}
+
+#link_contact:hover{
+    background-image: url(../img/nav/web/contactCode.png);
+}
+
+#link_works{
+    background-image: url(../img/nav/web/works.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 120px;
+    width: 180px;
+    z-index: 6;
+    position: fixed;
+    top:395px;
+    left: 34.5%;
+     -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 60s;
+    -webkit-animation-timing-function: ease;
+}
+
+#link_works:hover{
+    background-image: url(../img/nav/web/worksCode.png);
+}

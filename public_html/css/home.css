@@ -1,0 +1,108 @@
+/* 
+    Created on : Mar 29, 2016, 7:34:05 PM
+    Author     : AlexiaDura
+*/
+
+body{
+    background-image: url(../img/Photos/Water2B.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#name h1{
+    color: #04254d;
+    top:25px;
+}
+
+#name h2{
+    color: #04254d;
+    top:110px;
+}
+
+header span{
+    color: #04254d;
+}
+
+/*NAV
+================================================*/
+
+#nav{
+    transition: 1s all;
+}
+
+#btn_menu,#btn_menu2,#link_services,#link_works,#link_profile,#link_contact,#servicesLink,#worksLink,#profileLink,#contactLink{
+    position: fixed;
+    z-index: 30;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#servicesLink h3,#worksLink h3,#profileLink h3,#contactLink h3{
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+#btn_menu{
+    background-image: url(../img/Icons/close.png);
+    width: 45px;
+    height: 45px;
+    top: 25px;
+    right: 20px;
+}
+
+#link_services{
+    background-image: url(../img/nav/BirdAnimation/left4/bird-8.png);
+    height: 140px;
+    width: 140px;
+    top: 45px;
+    left: 335px;
+}
+
+
+#servicesLink{
+    top: 133px;
+    left: 370px;
+}
+
+
+#link_works{
+    background-image: url(../img/nav/BirdAnimation/left4/bird-2.png);
+    width: 130px;
+    height: 130px;
+    top: 185px;
+    left: 90px;
+}
+
+#worksLink{
+    top: 263px;
+    left: 140px;
+}
+
+
+#link_profile{
+    background-image: url(../img/nav/BirdAnimation/right4/bird-4.png);
+    width: 120px;
+    height: 120px;
+    top: 35px;
+    right: 365px;
+}
+
+#profileLink{
+    top: 105px;
+    right: 390px;
+}
+
+#link_contact{
+    background-image: url(../img/nav/BirdAnimation/right4/bird-9.png);
+    width: 130px;
+    height: 130px;
+    top: 188px;
+    right: 133px;
+}
+
+#contactLink{
+    top: 265px;
+    right: 170px;
+}

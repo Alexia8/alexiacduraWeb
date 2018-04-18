@@ -1,0 +1,116 @@
+/* 
+    Created on : Mar 29, 2016, 12:46:13 AM
+    Author     : AlexiaDura
+*/
+
+body{
+    background-image: url(../img/Photos/drumsOk.png);
+/*    background-color: rgba(212, 224, 227,.6);*/
+background-color: #d1d1d1;
+    background-position: center; 
+    background-size: cover;
+}
+
+#name h1{
+    color: #04254d;
+    top:25px;
+    left: 60%;
+}
+
+#name h2{
+    color: #04254d;
+    top:110px;
+    left: 60%;
+}
+
+header span{
+    color: #04254d;
+}
+
+/*NAV
+================================================*/
+
+/*nav{
+    display: none!important;
+}*/
+
+#btn_menu,#btn_menu2,#link_services,#link_works,#link_profile,#link_contact:hover{
+    cursor: pointer;
+    position: fixed;
+}
+
+#link_services{
+    background-image: url(../img/nav/drums/services.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 150px;
+    width: 150px;
+    z-index: 6;
+    position: fixed;
+    top: 200px;
+    left: 70px;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 40s;
+    -webkit-animation-timing-function: ease;
+}
+
+#link_services:hover{
+    background-image: url(../img/nav/drums/servicesRed.png);
+}
+
+#link_profile{
+    background-image: url(../img/nav/drums/profile.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100px;
+    width: 100px;
+    z-index: 6;
+    position: fixed;
+    top: 210px;
+    right: 290px;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 70s;
+    -webkit-animation-timing-function: ease;
+}
+
+#link_profile:hover{
+    background-image: url(../img/nav/drums/profileRed.png);
+}
+
+#link_contact{
+    background-image: url(../img/nav/drums/contact.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 150px;
+    width: 150px;
+    z-index: 6;
+    position: fixed;
+    bottom: 200px;
+    right: 130px;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 30s;
+    -webkit-animation-timing-function: ease;
+}
+
+#link_contact:hover{
+    background-image: url(../img/nav/drums/contactRed.png);
+}
+
+#link_works{
+    background-image: url(../img/nav/drums/works.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 110px;
+    width: 110px;
+    z-index: 6;
+    position: fixed;
+    bottom: 200px;
+    left: 340px;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 100s;
+    -webkit-animation-timing-function: ease;
+}
+
+#link_works:hover{
+    background-image: url(../img/nav/drums/worksRed.png);
+}
